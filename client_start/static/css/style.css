@@ -1,0 +1,84 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  /* background: #DCE3E6;
+  padding: 0% 3%; */
+}
+
+body {
+  /* max-width: 60rem;
+  padding: 0 0 1rem 0;
+  margin: 6em auto 19rem; */
+  background: #fff;
+  color: #333;
+  font-size: 0.8rem;
+  position: relative;
+  /* box-shadow: 0 .3em 1rem #000; */
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.answer {
+  color: red;
+  font-size: 2rem;
+}
+
+
+th {
+    cursor: pointer;
+}
+
+
+#myInput {
+  background-image: url('../searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
